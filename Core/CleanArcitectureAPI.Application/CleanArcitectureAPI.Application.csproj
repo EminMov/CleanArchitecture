@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureAPI.Domain\CleanArchitectureAPI.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstraction\" />
+    <Folder Include="Abstraction\IRepositories\" />
+    <Folder Include="Abstraction\IUnitofWork\" />
+    <Folder Include="Abstraction\Services\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Models\ResponseModels\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+</Project>

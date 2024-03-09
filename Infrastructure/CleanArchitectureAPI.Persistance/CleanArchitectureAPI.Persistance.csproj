@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CleanArcitectureAPI.Application\CleanArcitectureAPI.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contexts\" />
+    <Folder Include="Impelementations\UnitOfWorks\" />
+    <Folder Include="Impelementations\Repositories\" />
+    <Folder Include="Impelementations\Services\" />
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
+</Project>
